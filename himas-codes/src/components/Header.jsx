@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import MagneticEffect from "./MagneticEffect";
 import { Link } from "react-scroll";
 
+
 export default function Header() {
     useEffect(() => {
         (async () => {
