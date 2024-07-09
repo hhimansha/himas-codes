@@ -1,0 +1,8 @@
+.App {
+  transition: background-color 1s ease;
+}
+
+body{
+background-color: black;
+}
+/* Additional styles */
