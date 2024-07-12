@@ -23,6 +23,13 @@ export default function ProjectsContact() {
 
 const Projects = ({ scrollYProgress }) => {
 
+    useEffect(() => {
+        (async () => {
+            const LocomotiveScroll = (await import('locomotive-scroll')).default;
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
+    }, []);
+
     const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
 
     return (
@@ -135,7 +142,12 @@ const Projects = ({ scrollYProgress }) => {
 const Contact = ({ scrollYProgress }) => {
     const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
 
-    
+    useEffect(() => {
+        (async () => {
+            const LocomotiveScroll = (await import('locomotive-scroll')).default;
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
+    }, []);
     
     return (
         <motion.div

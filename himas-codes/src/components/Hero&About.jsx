@@ -34,7 +34,7 @@ export default function HeroAbout() {
                     targets: '.about',
                     translateY: [100, 0],
                     opacity: [0, 1],
-                    duration: 1000,
+                    duration: 2000,
                     easing: 'easeOutExpo'
                 });
                 // Remove scroll event listener after animation is triggered
@@ -48,6 +48,13 @@ export default function HeroAbout() {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
+    }, []);
+
+    useEffect(() => {
+        (async () => {
+            const LocomotiveScroll = (await import('locomotive-scroll')).default;
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
     }, []);
 
     const container = useRef(null);
@@ -67,6 +74,13 @@ export default function HeroAbout() {
 const Hero = ({ scrollYProgress }) => {
     const scale = useTransform(scrollYProgress, [0, 1], [1, 0.8]);
     const rotate = useTransform(scrollYProgress, [0, 1], [0, -5]);
+
+    useEffect(() => {
+        (async () => {
+            const LocomotiveScroll = (await import('locomotive-scroll')).default;
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
+    }, []);
 
     return (
         <motion.div id="home" style={{ scale, rotate }} className="flex top-0 sticky max-w-full bg-white">

@@ -8,7 +8,12 @@ import { useState, useEffect } from 'react';
 import { useScroll } from 'framer-motion';
 
 function App() {
-  
+  useEffect(() => {
+    (async () => {
+        const LocomotiveScroll = (await import('locomotive-scroll')).default;
+        const locomotiveScroll = new LocomotiveScroll();
+    })();
+}, []);
 
   return (
     <div className={`App relative`}>
