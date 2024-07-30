@@ -8,8 +8,8 @@ export default function HeroAbout() {
     return (
         <>
         <div id="home" className="flex  bg-gray-200 rounded-b-[60px]">
-            <div className="flex flex-wrap gap-[5vw] max-w-screen-xl mx-auto lg:h-full h-full  items-center justify-center">
-                <div className="grid 2xl:gap-16 xl:gap-16 lg:gap-16 md:gap-10 gap-4">
+            <div className="grid md:flex gap-[5vw] max-w-screen-xl mx-auto lg:h-full h-full  items-center justify-center">
+                <div className="grid 2xl:gap-16 xl:gap-16 lg:gap-16 md:gap-10 gap-4 p-8 md:p-0">
                     <div className="relative block overflow-hidden">
                         <h1 className="haritha 2xl:text-[75px] xl:text-[65px] lg:text-[65px] md:text-[60px] sm:text-[55px] text-[55px] leading-tight font-semibold">Haritha<br /> Himansha</h1>
                     </div>
@@ -26,7 +26,7 @@ export default function HeroAbout() {
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <img src={profImage} alt="Profile" className=" lg:w-[55vh] md:w-[55vh] sm:w-[50vh] w-[50vh]" />
+                    <img src={profImage} alt="Profile" className=" max-w-[400px]" />
                 </div>
 
                 <div className="md:grid 2xl:gap-10 xl:gap-10 hidden  lg:gap-10 md:gap-6 sm:py-10 py-10 sm:gap-6 gap-4 w-80">

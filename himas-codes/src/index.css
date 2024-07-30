@@ -13,11 +13,11 @@ body {
   background-color: black !important;
 }
 
-.no-scroll {
+/* .no-scroll {
   overflow-y: hidden;
   overflow-x: auto;
   height: 100vh;
-}
+} */
 
   /* Customize the scrollbar track */
   ::-webkit-scrollbar {

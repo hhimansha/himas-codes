@@ -81,6 +81,11 @@ export default function Header() {
                         </MagneticEffect>
                         <MagneticEffect className="font-semibold mx-6 text-l">
                             <li>
+                                <a href="#" className="hover:border-b-4 transition-all  ease-in-out">Services</a>
+                            </li>
+                        </MagneticEffect>
+                        <MagneticEffect className="font-semibold mx-6 text-l">
+                            <li>
                                 <a href="#" className="hover:border-b-4 transition-all  ease-in-out">Blogs</a>
                             </li>
                         </MagneticEffect>

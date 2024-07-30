@@ -3,10 +3,10 @@ import React from "react";
 export default function Services() {
     return(
         <>
-            <section>
+            <section id="services">
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
         <h2 className="mb-8 text-center text-3xl font-bold md:mb-12 md:text-5xl lg:mb-16">
-          Services
+          SERVICES
         </h2>
         <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6">
           <div className="relative p-8 md:p-10">
