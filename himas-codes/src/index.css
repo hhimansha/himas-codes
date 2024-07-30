@@ -5,4 +5,35 @@
 
 body {
   font-family: 'Manrope', sans-serif;
+  /* background-color: #e5e7eb; */
+  transition: background-color 1s ease;
 }
+
+.bg-black {
+  background-color: black !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+  /* Customize the scrollbar track */
+  ::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #e5e7eb; /* Track color */
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #000000; /* Thumb color */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+  }
+

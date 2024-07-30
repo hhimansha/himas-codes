@@ -1,6 +1,6 @@
 {
   "name": "himas-codes",
-  "homepage" : "https://himas.codes/",
+  "homepage": "https://himas.codes/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,8 +13,10 @@
     "locomotive-scroll": "^4.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
+    "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

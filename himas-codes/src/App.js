@@ -1,25 +1,29 @@
 import './App.css';
+import './index.css';
 import Header from './components/Header';
-
-
+import HeaderNav from './components/HeaderNew';
 import HeroAbout from './components/Hero&About';
 import ProjectsContact from './components/Projects&Contact';
-import { useState, useEffect } from 'react';
-import { useScroll } from 'framer-motion';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
-  useEffect(() => {
-    (async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default;
-        const locomotiveScroll = new LocomotiveScroll();
-    })();
-}, []);
-
   return (
-    <div className={`App relative`}>
-      <Header />
-      <HeroAbout/>
-      <ProjectsContact/>
+    <div className="App relative">
+      <Router>
+        
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div className='custom-scrollbar'>
+              <Header/>
+                <HeroAbout />
+                <ProjectsContact />
+              </div>
+            }
+          />
+        </Routes>
+      </Router>
     </div>
   );
 }
