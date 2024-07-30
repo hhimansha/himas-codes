@@ -7,6 +7,8 @@ import ProjectsContact from './components/Projects&Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
+
+  
   return (
     <div className="App relative">
       <Router>

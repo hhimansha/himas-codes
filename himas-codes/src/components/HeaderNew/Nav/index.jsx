@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { menuSlide } from '../anim';
 import Curve from './Curve';
 import Footer from './Footer';
-import { Link as ScrollLink } from 'react-scroll'; // Import Link from react-scroll
+import { Link as ScrollLink } from 'react-scroll';
 
-const Nav = () => {
+const Nav = ({ closeMenu }) => {
   return (
     <motion.div
       initial="initial"
@@ -16,18 +16,18 @@ const Nav = () => {
     >
       <Curve/>
       <div className="mx-auto my-auto">
-        <div className="flex flex-col space-y-10 text-5xl text-white my-auto">
-          <ScrollLink to="home" smooth={true} duration={1000}>
+        <div className="flex flex-col  text-5xl text-white my-auto">
+          <ScrollLink to="home" className='p-6' smooth={true} duration={1000} onClick={closeMenu}>
             <div className="cursor-pointer">Home</div>
           </ScrollLink>
-          <ScrollLink to="projects" smooth={true} duration={1000}>
+          <ScrollLink to="projects" className='p-6' smooth={true} duration={1000} onClick={closeMenu}>
             <div className="cursor-pointer">Projects</div>
           </ScrollLink>
-          <ScrollLink to="services" smooth={true} duration={1000}>
+          <ScrollLink to="services" className='p-6' smooth={true} duration={1000} onClick={closeMenu}>
             <div className="cursor-pointer">Services</div>
           </ScrollLink>
-          <ScrollLink to="contacts" smooth={true} duration={1000}>
-            <div className="cursor-pointer">Contact</div>
+          <ScrollLink to="contacts" className='p-6' smooth={true} duration={1000} onClick={closeMenu}>
+            <div className="cursor-pointer ">Contact</div>
           </ScrollLink>
         </div>
       </div>
