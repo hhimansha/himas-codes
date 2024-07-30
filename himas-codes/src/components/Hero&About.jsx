@@ -35,7 +35,7 @@ export default function HeroAbout() {
                         <h2 className="dev text-3xl font-semibold">Designer & Developer</h2>
                     </div>
                     <div className="relative block overflow-hidden">
-                        <p className="location text-lg font-medium">I am a designer and developer who is passionate about creating beautiful and functional websites.</p>
+                        <p className="location text-lg font-medium">I am an innovative designer and developer who is passionate about creating aesthetic and functional things</p>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ export default function HeroAbout() {
                 </div>
             </div>
         
-        <div className="flex relative flex-wrap max-w-full pt-24  lg:gap-40 gap-10 mx-auto  h-full items-center justify-center bg-white">
+        <div className="flex relative flex-wrap max-w-full pt-14  lg:gap-40 gap-10 mx-auto  h-full items-center justify-center bg-white">
             {/* <div className="grid lg:gap-4 gap-2">
                 <h2 className="lg-ml-0 ml-8 text-center text-3xl text-gray-900 font-bold ">This is me...</h2>
                 <div className="relative block overflow-hidden">

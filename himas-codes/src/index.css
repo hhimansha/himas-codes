@@ -14,13 +14,14 @@ body {
 }
 
 .no-scroll {
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
   height: 100vh;
 }
 
   /* Customize the scrollbar track */
   ::-webkit-scrollbar {
-    width: 6px; /* Width of the scrollbar */
+    width: 3px; /* Width of the scrollbar */
   }
 
   ::-webkit-scrollbar-track {

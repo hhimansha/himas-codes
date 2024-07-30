@@ -20,7 +20,7 @@ const Nav = () => {
       <div className=" mx-auto  my-auto">
         <div className="flex flex-col space-y-10 text-5xl text-white my-auto">
         <Link data={{ title: 'Home', href: '/', index: 0 }} />
-        <Link data={{ title: 'About', href: '/', index: 1 }} />
+        <Link data={{ title: 'Projects', href: '/', index: 1 }} />
         <Link data={{ title: 'Services', href: '/', index: 2 }} />
         <Link data={{ title: 'Contact', href: '/', index: 3 }} />
         </div>
