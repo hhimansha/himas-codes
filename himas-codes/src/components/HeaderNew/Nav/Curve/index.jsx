@@ -1,5 +1,3 @@
-// src/components/Header/Nav/Curve/index.jsx
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -22,7 +20,7 @@ const Curve = () => {
   };
 
   return (
-    <svg className="absolute top-0 left-[-99px] w-25 h-full fill-black">
+    <svg className="absolute top-0 left-[-99px] w-25 h-full fill-black ">
       <motion.path variants={curve} initial="initial" animate="enter" exit="exit"></motion.path>
     </svg>
   );

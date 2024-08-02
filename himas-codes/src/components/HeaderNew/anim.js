@@ -1,4 +1,3 @@
-// src/components/Header/anim.js
 
 export const menuSlide = {
     initial: { x: "calc(100% + 100px)" },

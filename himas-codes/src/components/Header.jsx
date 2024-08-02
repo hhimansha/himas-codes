@@ -36,7 +36,7 @@ export default function Header() {
 
     return (
         <>
-        <header ref={headerRef} className="max-w-full bg-gray-200 hidden md:block">
+        <header  id="home" ref={headerRef} className="max-w-full bg-gray-200 hidden md:block  ">
             <div className="flex max-w-screen-xl top-0 sticky border-b border-gray-400 flex-col overflow-hidden px-4 py-6 md:mx-auto md:flex-row md:items-center">
                 <MagneticEffect className="flex items-center whitespace-nowrap text-xl">
                     <motion.a

@@ -13,15 +13,16 @@ body {
   background-color: black !important;
 }
 
-/* .no-scroll {
+.no-scroll {
   overflow-y: hidden;
   overflow-x: auto;
   height: 100vh;
-} */
+}
 
   /* Customize the scrollbar track */
   ::-webkit-scrollbar {
     width: 3px; /* Width of the scrollbar */
+    display: none;
   }
 
   ::-webkit-scrollbar-track {
@@ -38,3 +39,4 @@ body {
     background: #555; /* Thumb color on hover */
   }
 
+  
