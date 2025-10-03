@@ -139,7 +139,7 @@ const Projects = () => {
                         <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">Inventory & sales management system</td>
 
                         <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-                          2024
+                          2025
                         </td>
 
                         <td class="whitespace-no-wrap  py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
@@ -158,7 +158,7 @@ const Projects = () => {
                         <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">Android game that helps to improve memory of childs</td>
 
                         <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-                          2024
+                          2025
                         </td>
 
                         <td class="whitespace-no-wrap  py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
@@ -177,7 +177,7 @@ const Projects = () => {
                         <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">Website for IEEE Robotics & Automation Society of SLIIT</td>
 
                         <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-                          2024
+                          2025
                         </td>
 
                         <td class="whitespace-no-wrap  py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
@@ -196,7 +196,7 @@ const Projects = () => {
                         <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">Website for IEEE Women In Ingineering Society of SLIIT</td>
 
                         <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-                          2024
+                          2025
                         </td>
 
                         <td class="whitespace-no-wrap  py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
@@ -328,7 +328,7 @@ const Contact = () => {
 
             </motion.div>
             <p className="text-gray-500 text-sm sm:text-base">
-              © 2024 by Haritha Himansha
+              © 2025 by Haritha Himansha
             </p>
           </div>
         </div>
