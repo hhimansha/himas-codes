@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div className="App relative">
-      <Router>
+      <Router basename="/himas-codes">
         
         <Routes>
           <Route
